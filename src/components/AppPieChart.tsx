@@ -118,7 +118,7 @@ export function AppPieChart() {
       </CardContent>
       <CardFooter className="flex-col gap-2 text-sm">
         <div className="flex items-center gap-2 leading-none font-medium">
-          Trending down by 6.4% this month <TrendingUp className="h-4 w-4 text-green-500"/>
+          Trending up by 6.4% this month <TrendingUp className="h-4 w-4 text-green-500"/>
         </div>
         <div className="text-muted-foreground leading-none">
           Showing total usage for the last 6 months
