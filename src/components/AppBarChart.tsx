@@ -74,7 +74,7 @@ export function AppBarChart() {
       </CardContent>
       <CardFooter className="flex-col items-start gap-2 text-sm">
         <div className="flex gap-2 leading-none font-medium">
-          Trending up by 2.7% this month <TrendingUp className="h-4 w-4 text-yellow-500" />
+          Trending up by 0.7% this month <TrendingUp className="h-4 w-4 text-yellow-500" />
         </div>
         <div className="text-muted-foreground leading-none">
           Showing total revenue for the last 6 months
