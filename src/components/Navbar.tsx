@@ -21,8 +21,7 @@ const Navbar = () => {
   const { theme, setTheme } = useTheme()
   const { toggleSidebar } = useSidebar() //This works with line 27 to manually toggle the sidebar button (<SidebarTrigger/> is used in this case)
   return (
-    <div>
-      <nav className='p-4 flex items-center justify-between'>
+      <nav className='p-4 flex items-center justify-between sticky top-0 bg-background z-10'>
         <SidebarTrigger/>
         {/* <Button variant="outline" onClick={toggleSidebar}>Custom Button</Button> */}
         <div className='flex items-center gap-4'>
@@ -76,7 +75,6 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  </div>
   )
 }
 
